@@ -1,0 +1,158 @@
+@import url("style2.css");
+@import url("style3.css");
+.section1{
+    background-color: rgb(49, 109, 195);
+}
+.head{
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+.section2{
+    border-bottom: 1px solid rgb(182, 181, 181);
+}
+.section6{
+    background-color: rgb(38, 85, 232);
+    padding: 30px 10px 50px 10px;
+    
+}
+ 
+.fa-icons{
+    
+}
+.fa{
+    display: flex;
+    width: 15px;
+    height: 10px;
+    margin: 10px;
+    color: white;
+}
+.whatsapp-icon{
+    margin: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.p{
+  
+    color: white;
+    font-size: 17px;
+}
+.btn-div{
+    border: 1px solid black;
+    /* width: 250px; */
+}
+.butn{
+    height: 28px;
+    font-size: 13px;
+    border-width: 25px;
+    background-color: whitesmoke;
+    color: #427900;
+    border: 1px solid rgb(66, 121, 0);
+    border-radius: 0px;
+} 
+.img-logo{
+    margin: 0px 15px 0px 20px;
+    width: 220px;
+    height: 70px;
+    justify-content: center;
+}
+
+.navbar{
+    font-size: 15px;
+    
+}
+/* .home{
+    border: 1px solid rgb(49, 109, 195);
+    background-color: rgb(49, 109, 195);
+    border-radius: 20px;
+    color: white;
+    border-width: 10px;
+} */
+
+.nav-item:hover{
+    border: 1px solid rgb(49, 109, 195);
+    background-color: rgb(49, 109, 195);
+    color: white;
+    border-radius: 20px;
+}
+.dropdown:hover>.dropdown-menu{
+    display: block;
+    border-color: white;
+    border-radius: 0px;    
+}
+
+.dropdown-menu .dropdown-item:hover{
+    background-color: rgb(49, 109, 195);
+}
+.dropdown-menu>.dropdown-item:hover{
+    display: block;
+
+}
+.para{
+    background-color: rgb(49, 109, 195);
+    
+
+}
+.news{
+    
+    font-size: 15px;
+    animation: news 10s linear infinite;
+    overflow: hidden;
+    background-repeat: repeat-x;
+}
+@keyframes news{
+    100%{
+        transform: translateX(-1000px);
+    }
+}
+h1{
+    font-family: open-sans,sanserif;
+    color: rgb(49, 109, 195);
+    /* text-align: center; */
+}
+
+span{
+    color: #427900;
+}
+.span{
+    color: rgb(0, 255, 0);
+}
+.design{
+    display: flex;
+    
+}
+.syal-logo{
+    position: relative;
+    bottom: 15px;
+    width: 40px;
+    height: 40px;
+}
+.right{
+    border-bottom: 2px solid rgb(66, 121, 0);
+    text-align: end;
+    width: 30px;
+    justify-content: start;
+}
+.left{
+    text-align: end;
+    border-bottom: 2px solid rgb(66, 121, 0);
+    justify-content: end;
+    width: 30px;
+}
+.intro{
+    padding-top: 50px;
+}
+.text{
+    padding-top: 30px;
+    height: auto;
+}
+.text-para{
+    font-family: open-sans,sans-serif;
+    line-height: 1.9em;
+    word-spacing: 0.7px;
+    color: #878888;
+    font-size: 15px;
+    text-align: justify;
+    padding-bottom: 100px;
+    margin: 10px 12% 0px 12%;
+}

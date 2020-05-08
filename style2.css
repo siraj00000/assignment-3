@@ -1,0 +1,138 @@
+@font-face {
+    font-family: 'Merriweather';
+    src: url('Merriweather-Regular.ttf');}
+.counter-div{
+    background-color: rgb(38, 85, 232);
+    display: flex;
+    /* height: 400px; */
+    
+    flex-wrap: wrap;
+}
+/* .count{
+    background-color: rgb(38, 85, 232);
+} */
+.icon-design{
+
+    border: 1px solid rgb(38, 85, 232);
+    height: 60px;
+    width: 60px;
+    
+}
+.count{
+    padding-bottom: 10px;
+    /* width: 400px; */
+    /* border: 1px solid black; */
+
+}
+.counter{
+    position: relative;
+    bottom: 20px;
+    word-spacing: 1em;
+    font-size: 56px;
+    font-family: Merriweather-Regular;
+}
+.counter-para{
+    position: relative;
+    bottom: 35px;
+    font-weight: 700;
+}
+/* ---------box-------------------------------- */
+.block-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.box{
+    padding-bottom: 100px;
+}
+.block{
+    
+    box-shadow: 0px 0px 12px rgb(206, 206, 206) ;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    width: 300px;
+    height: 190px;
+}
+.work-img{
+    width: 80px;
+    height: 80px;
+}
+h5{
+    color: rgb(49, 109, 195);
+    font-weight: bold;
+    font-family: Merriweather-Regular;
+    font-size: 10px;
+}
+.h6{
+    color: rgb(49, 109, 195);
+    font-weight: bold;
+    font-family: Merriweather-Regular;
+    font-size: 8px;
+    
+}
+.div-heading{
+    font-family: Merriweather-Regular;
+    padding-top: 50px;
+    margin-left: 20px;
+}
+.heading{
+   
+    font-size: 30px;
+    font-weight: 600;
+}
+
+
+.divider{
+    border-bottom: 2px solid rgb(66, 121, 0);
+    width: 50px;
+}
+.block-main{
+    display: flex;
+    flex-wrap: wrap; 
+    margin-left: 10px;   
+    padding: 30px 0px 0px 10px;
+}
+.block-img{
+    width: 65px;
+    height: 65px;
+}
+.block-sub{
+    border: 1px solid rgb(233, 233, 233);
+    background-color: #F7F8FA;
+    display: flex;
+    margin: 5px 10px 5px 0px;
+    width: 280px;
+    height: 80px;
+}
+.slide-up{
+    margin-left: 10px;   
+    padding: 30px 0px 0px 10px;
+    
+}
+.slide-para{
+    border: 1px solid rgb(247, 246, 246);
+    height: 200px;
+    
+    color: rgb(129, 125, 125);
+    box-sizing: border-box;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    padding-bottom: 100px;
+
+}
+
+.gallery-img{
+    border: 1px solid white;
+    width: 100%;
+    /* height: 120px; */
+    /* max-width: 600px; */
+}
+.blk-main{
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* justify-content: space-between; */
+}
